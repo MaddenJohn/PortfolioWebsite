@@ -1,0 +1,11 @@
+---
+layout: default
+modal-id: 3
+date: 2014-07-16
+img: shield2.jpg
+alt: image-alt
+project-date: Fall 2016
+category: Security
+description: Advanced Encryption Standard, which was coded from scratch for 256 bit keys. Designed a cryptography system based on AES encryption. Fully incorporated each of the steps of AES for 256 bit keys. Encrypts at an average rate of 15 MB/s.
+
+---

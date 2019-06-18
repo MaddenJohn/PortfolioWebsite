@@ -1,0 +1,11 @@
+---
+layout: default
+modal-id: 4
+date: 2018-11-17
+img: beans.jpg
+alt: image-alt
+project-date: Spring 2016
+category: Computer Architecture
+description: Built mini operating system to include priority scheduling, argument passing on the stack, system calls for user programs, virtual memory, and converted the existing single-thread file system into a multi-threaded, multi-indexed file system. 
+
+---
