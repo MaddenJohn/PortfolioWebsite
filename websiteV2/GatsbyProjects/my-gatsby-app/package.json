@@ -8,6 +8,8 @@
     "@emotion/react": "^11.8.2",
     "@emotion/styled": "^11.8.1",
     "@mui/material": "^5.5.0",
+    "baseui": "^10.10.0",
+    "colorthief": "^2.3.2",
     "gatsby": "^4.7.2",
     "gatsby-plugin-gatsby-cloud": "^4.7.0",
     "gatsby-plugin-image": "^2.7.0",
@@ -21,12 +23,17 @@
     "prop-types": "^15.8.0",
     "react": "^17.0.1",
     "react-dom": "^17.0.1",
+    "react-easy-emoji": "^1.6.1",
     "react-helmet": "^6.1.0",
+    "react-reveal": "^1.2.2",
     "styled-components": "^5.3.3",
     "styles": "^0.2.1"
   },
   "devDependencies": {
-    "prettier": "^2.5.1"
+    "prettier": "^2.5.1",
+    "sass": "^1.49.9",
+    "sass-loader": "^12.6.0",
+    "webpack": "^5.70.0"
   },
   "keywords": [
     "gatsby"
