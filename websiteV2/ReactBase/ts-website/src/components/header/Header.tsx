@@ -1,34 +1,44 @@
-import React, {useEffect, useState} from "react";
+import React from "react";
 import Headroom from "react-headroom";
-import "./Header.css";
+import SeoHeader from "../seo/SeoHeader";
+import "./Header.scss";
 
 
 function Header() {
-    var viewSkills = true;
 
     return (
-        <Headroom>
-          <header className={"header"}>
-            <a href="/" className="logo">
-              <span className="logo-name">Jonathan Madden</span>
-            </a>
-            <input className="menu-btn" type="checkbox" id="menu-btn" />
-            <label
-              className="menu-icon"
-              htmlFor="menu-btn"
-              style={{color: "white"}}
-            >
-              <span className={"navicon"}></span>
-            </label>
-            <ul className={"menu"}>
-              {viewSkills && (
+        <div>
+          <SeoHeader/>
+          <Headroom>
+            <header className={"dark-menu header"}>
+              <a href="/" className="logo">
+                <span className="logo-name">Jonathan Madden</span>
+              </a>
+              <input className="menu-btn" type="checkbox" id="menu-btn" />
+              <label
+                className="menu-icon"
+                htmlFor="menu-btn"
+                style={{color: "white"}}
+              >
+                <span className={"navicon navicon-dark"}></span>
+              </label>
+              <ul className={"dark-menu menu"}>
                 <li>
                   <a href="#skills">Skills</a>
                 </li>
-              )}
-            </ul>
-          </header>
-        </Headroom>
+                <li>
+                  <a href="#experience">Experience</a>
+                </li>
+                <li>
+                  <a href="#education">Education</a>
+                </li>
+                <li>
+                  <a href="#projects">Projects</a>
+                </li>
+              </ul>
+            </header>
+          </Headroom>
+        </div>
       );
     }
     export default Header;

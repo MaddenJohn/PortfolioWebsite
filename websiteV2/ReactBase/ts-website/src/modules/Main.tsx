@@ -1,11 +1,16 @@
-import React, {useEffect, useState} from "react";
+import React from "react";
 import Header from "../components/header/Header";
+import Bio from "../components/bio/Bio";
+import Intro from "../components/intro/Intro";
+import "./Main.scss";
 
 const Main = () => {
 
     return (
-        <div>
+        <div className="dark-mode">
             <Header />
+            <Intro />
+            <Bio />
         </div>
 
     );

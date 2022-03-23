@@ -1,0 +1,135 @@
+@import "../../globalColor";
+
+.main {
+  width: 90%;
+  padding: 20px 10px;
+  margin: 0px auto;
+  margin-top: 4rem;
+}
+.bio-main {
+  width: 90%;
+  padding: 20px 10px;
+  margin: 0px auto;
+  margin-top: 2rem;
+}
+
+.bio-sub-main {
+  display: flex;
+}
+
+.subTitle {
+  color: $subTitle !important;
+}
+
+.bio-main {
+  display: flex;
+}
+
+.bio-text-div {
+    display: flex;
+    max-width: 50%;
+}
+
+.bio-main > * {
+  flex: 1;
+  margin-bottom: 30px;
+}
+.button-bio-div {
+  display: flex;
+  margin-top: 20px;
+}
+
+.bio-text {
+  font-size: 70px;
+  line-height: 1.1;
+}
+
+.bio-text-p {
+  font-size: 30px;
+  line-height: 40px;
+}
+
+.bio-image-div > img {
+  padding: 20px 20px;
+  max-width: 100%;
+  height: auto;
+  align-items: center;
+  filter: grayscale(0.75)
+}
+
+.wave-emoji {
+  animation-duration: 1.8s;
+  animation-iteration-count: infinite;
+  animation-name: wave;
+  display: inline-block;
+  transform-origin: 70% 70%;
+}
+
+@keyframes wave {
+  0% {
+    transform: rotate(0deg);
+  }
+  10% {
+    transform: rotate(-10deg);
+  }
+  20% {
+    transform: rotate(12deg);
+  }
+  30% {
+    transform: rotate(-10deg);
+  }
+  40% {
+    transform: rotate(9deg);
+  }
+  50% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(0deg);
+  }
+}
+
+/* Media Query */
+@media (max-width: 1380px) {
+  .bio-text {
+    font-size: 50px;
+  }
+  .bio-text-p {
+    font-size: 20px;
+  }
+}
+@media (max-width: 768px) {
+  .button-bio-div {
+    justify-content: space-around;
+  }
+  .bio-text {
+    font-size: 20px;
+    text-align: center;
+  }
+  .bio-text-p {
+    font-size: 12px;
+    line-height: normal;
+    text-align: center;
+  }
+  .bio-main {
+    display: block;
+  }
+  .bio-image-div {
+    height: 256px;
+  }
+}
+
+@media (max-width: 320px) {
+  .main {
+    width: auto;
+  }
+  .bio-text {
+    font-size: 10px;
+    text-align: center;
+  }
+  .bio-text-p {
+    font-size: 8px;
+    line-height: normal;
+    text-align: center;
+  }
+}
