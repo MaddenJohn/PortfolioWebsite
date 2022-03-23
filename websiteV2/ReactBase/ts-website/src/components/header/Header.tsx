@@ -24,6 +24,12 @@ function Header() {
               </label>
               <ul className={"dark-menu menu"}>
                 <li>
+                  <a href="#">Home</a>
+                </li>
+                <li>
+                  <a href="#bio">About</a>
+                </li>
+                <li>
                   <a href="#skills">Skills</a>
                 </li>
                 <li>

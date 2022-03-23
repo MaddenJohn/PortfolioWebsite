@@ -1,11 +1,11 @@
 @import "../../globalColor";
+@import "@fontsource/oswald";
+@import "@fontsource/open-sans";
 
 
 .intro-main {
-    // width: 90%;
-    // padding: 20px 10px;
-    // margin: 0px auto;
-    // margin-top: -4rem;
+    position: relative;
+    text-align: center;
   }
 
   .intro-image-div > img {
@@ -13,4 +13,57 @@
     max-width: 100%;
     height: auto;
     align-items: center;
+    margin-top: -80px;
   }
+
+  .intro-name-text {
+    margin-bottom: 30px;
+    font-size: 35px;
+    font-family: "Oswald";
+    font-weight: bold;
+  }
+
+  .intro-text {
+    position: absolute;
+    bottom: 64px;
+    left: 64px;
+    font-size: 18px;
+    text-align: left;
+    font-family: "Open Sans"
+  }
+  .resume-button {
+    position: absolute;
+    bottom: 64px;
+    left: 64px;
+    // font-size: 20px;
+  }
+
+
+  @media (max-width: 48em) {
+    .intro-name-text {
+        margin-bottom: 25px;
+        font-size: 20px;
+        font-family: "Oswald";
+        font-weight: bold;
+      }
+    .intro-text {
+        bottom: 32px;
+        left: 32px;
+        font-size: 12px;
+    }
+  }
+
+
+  @media (max-width: 320px) {
+    .intro-name-text {
+        margin-bottom: 20px;
+        font-size: 12px;
+        font-family: "Oswald";
+        font-weight: bold;
+      }
+    .intro-text {
+        bottom: 20px;
+        left: 20px;
+        font-size: 8px;
+    }
+}

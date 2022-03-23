@@ -8,9 +8,9 @@ function Bio() {
             <div className="bio-sub-main">
                 <div className="bio-text-div">
                     <div>
-                        <h1 className="dark-mode bio-text">
+                        {/* <h1 className="dark-mode bio-text">
                             Software Engineer
-                        </h1>
+                        </h1> */}
                         <p className="dark-mode bio-text-p">
                         I graduated from the University of Texas at Austin with a Bachelor of Science 
                         in Computer Science with honors in May 2018. After graduation, I then worked 
