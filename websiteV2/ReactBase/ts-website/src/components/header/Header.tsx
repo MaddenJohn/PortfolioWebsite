@@ -41,6 +41,9 @@ function Header() {
                 <li>
                   <a href="#projects">Projects</a>
                 </li>
+                <li>
+                  <a target="_blank" href="https://s3.us-east-2.amazonaws.com/madden.john.wordpress/simply-static-1-1598649569/resume-John-Madden.pdf">Resume</a>
+                </li>
               </ul>
             </header>
           </Headroom>
