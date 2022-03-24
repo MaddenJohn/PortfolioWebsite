@@ -24,12 +24,16 @@ on:
   workflow_dispatch:
 
 env:
+  GITHUB_PACKAGE_PATH: 'websiteV2/ReactBase/ts-website'
   AZURE_WEBAPP_NAME: ts-website
-  AZURE_WEBAPP_PACKAGE_PATH: 'websiteV2/ReactBase/ts-website'
+  AZURE_WEBAPP_PACKAGE_PATH: '.'
   NODE_VERSION: '16.x'
 
 jobs:
   build:
+    defaults:
+      run:
+        working-directory: ${{ env.GITHUB_PACKAGE_PATH }}
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v2
