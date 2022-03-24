@@ -24,9 +24,9 @@ on:
   workflow_dispatch:
 
 env:
-  AZURE_WEBAPP_NAME: ts-website   # set this to your application's name
-  AZURE_WEBAPP_PACKAGE_PATH: './websiteV2/ReactBase/ts-website'      # set this to the path to your web app project, defaults to the repository root
-  NODE_VERSION: '16.x'                # set this to the node version to use
+  AZURE_WEBAPP_NAME: ts-website
+  AZURE_WEBAPP_PACKAGE_PATH: 'websiteV2/ReactBase/ts-website'
+  NODE_VERSION: '16.x'
 
 jobs:
   build:
