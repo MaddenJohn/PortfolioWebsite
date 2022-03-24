@@ -24,7 +24,7 @@ function Header() {
               </label>
               <ul className={"dark-menu menu"}>
                 <li>
-                  <a href="#">Home</a>
+                  <a href="#intro">Home</a>
                 </li>
                 <li>
                   <a href="#bio">About</a>
@@ -42,7 +42,7 @@ function Header() {
                   <a href="#projects">Projects</a>
                 </li>
                 <li>
-                  <a target="_blank" href="https://s3.us-east-2.amazonaws.com/madden.john.wordpress/simply-static-1-1598649569/resume-John-Madden.pdf">Resume</a>
+                  <a target="_blank" rel="noopener noreferrer" href="https://s3.us-east-2.amazonaws.com/madden.john.wordpress/simply-static-1-1598649569/resume-John-Madden.pdf">Resume</a>
                 </li>
               </ul>
             </header>
