@@ -19,7 +19,7 @@ const Intro = () => {
     return (
         <div className="intro-main" id="intro">
             <div className="intro-image-div">
-                <img alt="background" src={require("../../assets/images/background.jpeg")}></img>
+                <img alt="background" src={require("../../assets/images/background.webp")}></img>
             </div>
             <div className="intro-text">
                 <div className = "intro-name-text">

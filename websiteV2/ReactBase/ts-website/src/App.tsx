@@ -3,12 +3,13 @@ import './App.scss';
 
 import Main from "./modules/Main";
 
-function App() {
-  return (
-    <div className="App">
+class App extends React.Component {
+  render() {
+    return (
       <Main />
-    </div>
-  );
+    );
+  }
 }
+
 
 export default App;
