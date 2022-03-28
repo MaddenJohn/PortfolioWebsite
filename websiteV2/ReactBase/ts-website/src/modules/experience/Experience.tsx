@@ -1,6 +1,7 @@
 import React from "react";
 import ExperienceCard from "../../components/experienceCard/ExperienceCard";
 import "./Experience.scss";
+import {Fade} from "react-awesome-reveal";
 
 export default function Experience() {
     const experiences = [
@@ -39,37 +40,24 @@ export default function Experience() {
     ] 
 
     return (
-        <div id="experience">
-            <div className="experience-container" id="workExperience">
-              <div>
-                <h1 className="experience-heading">Experiences</h1>
-                <div className="experience-cards-div">
-                  {experiences.map((card, i) => {
-                    return (
-                      <ExperienceCard
-                        key={i}
-                        cardInfo={card}
-                      />
-                    );
-                  })}
+        <Fade direction="up" duration={1000} triggerOnce={true}>
+            <div id="experience">
+                <div className="experience-container" id="workExperience">
+                    <div>
+                        <h1 className="experience-heading">Experience</h1>
+                        <div className="experience-cards-div">
+                        {experiences.map((card, i) => {
+                            return (
+                            <ExperienceCard
+                                key={i}
+                                cardInfo={card}
+                            />
+                            );
+                        })}
+                        </div>
+                    </div>
                 </div>
-              </div>
             </div>
-        </div>
+        </Fade>
       );
-
-
-    // return (
-    //     <div className="experience-cards-div">
-
-    //         {experiences.map((card, i) => {
-    //               return (
-    //                 <ExperienceCard
-    //                   key={i}
-    //                   cardInfo={card}
-    //                 />
-    //               );
-    //             })}
-    //     </div>
-    // );
 };
