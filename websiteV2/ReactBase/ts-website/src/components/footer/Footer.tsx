@@ -1,11 +1,13 @@
 import "./Footer.scss";
 import {Fade} from "react-awesome-reveal";
 import { SocialIcon } from 'react-social-icons';
+import { ImProfile } from "react-icons/im";
 
 
 export default function Footer() {
   var socialLinks = [ "https://www.linkedin.com/in/jmaddenlinked",
-  "https://github.com/MaddenJohn" 
+                      "https://github.com/MaddenJohn",
+                      "mailto:madden.jonathanj@gmail.com" 
 ]
 
     return (
@@ -24,6 +26,12 @@ export default function Footer() {
                             />
                             );
                         })}
+                <a href="https://s3.us-east-2.amazonaws.com/madden.john.wordpress/simply-static-1-1598649569/resume-John-Madden.pdf">
+                    <ImProfile 
+                        cursor= "pointer"
+                        style= {{ height: "35px", width:"35px", color:"white"}}
+                    />
+                </a>
                 
             </div>
           </div>
