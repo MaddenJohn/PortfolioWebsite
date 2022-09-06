@@ -2,7 +2,6 @@ import React from "react";
 import "./Bio.scss"
 import {Fade} from "react-awesome-reveal";
 import { SocialIcon } from 'react-social-icons';
-import { ImProfile } from "react-icons/im";
 
 function Bio() {
 

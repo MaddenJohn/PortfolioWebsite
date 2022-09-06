@@ -1,7 +1,6 @@
 import "./Footer.scss";
 import {Fade} from "react-awesome-reveal";
 import { SocialIcon } from 'react-social-icons';
-import { ImProfile } from "react-icons/im";
 
 
 export default function Footer() {
