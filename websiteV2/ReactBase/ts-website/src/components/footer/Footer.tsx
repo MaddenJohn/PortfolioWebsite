@@ -25,7 +25,7 @@ export default function Footer() {
                             />
                             );
                         })}
-                <a href="https://s3.us-east-2.amazonaws.com/madden.john.wordpress/simply-static-1-1598649569/resume-John-Madden.pdf">
+                <a href="https://s3.amazonaws.com/maddenjonathan.com/resume-John-Madden.pdf">
                   <img className="footer-icon" alt="icon" src={require("../../assets/images/profile-icon.webp")}/>
                 </a>
             </div>

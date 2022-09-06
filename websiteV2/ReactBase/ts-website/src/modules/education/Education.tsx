@@ -43,15 +43,17 @@ export default function Education() {
                 <div>
                     <h1 className="education-heading">Education</h1>
                     <div className="education-cards-div">
-                    {education.schools.map((card, i) => {
-                        return (
-                        <EducationCard
-                            key={i}
-                            cardInfo={card}
-                        />
-                        );
-                    })}
+                        {education.schools.map((card, i) => {
+                            return (
+                            <EducationCard
+                                key={i}
+                                cardInfo={card}
+                            />
+                            );
+                        })}
                     </div>
+                <div />
+                <div className="education-container" id="education"></div>
                     <h1 className="education-heading">Certifications</h1>
                     <div className="education-cards-div">
                     {education.certifications.map((card, i) => {

@@ -78,6 +78,19 @@
   max-width: 50px;
 }
 
+.bio-heading {
+  font-size: 56px;
+  font-weight: 400;
+  color: white;
+}
+
+.bio-container {
+  width: 90%;
+  padding: 20px 10px;
+  margin: 0px auto;
+  margin-top: 2rem;
+}
+
 .wave-emoji {
   animation-duration: 1.8s;
   animation-iteration-count: infinite;
@@ -121,6 +134,9 @@
   .bio-image-div {
     display: flex;
   }
+  .bio-heading {
+    font-size: 40px;
+  }
 }
 @media (max-width: 768px) {
   .button-bio-div {
@@ -142,6 +158,11 @@
   .bio-image-div {
     display: flex;
   }
+  .bio-heading {
+    display: flex;
+    justify-content: center;
+    font-size: 30px;
+  }
 }
 
 @media (max-width: 320px) {
@@ -159,5 +180,8 @@
   }
   .bio-image-div {
     display: flex;
+  }
+  .bio-heading {
+    font-size: 30px;
   }
 }

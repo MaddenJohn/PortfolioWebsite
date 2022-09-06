@@ -6,6 +6,7 @@ function SeoHeader() {
   var seo = {
     description: "Personal website of Jonathan Madden",
     title: "Jonathan Madden",
+    keywords: "Jonathan, Madden, Software, Engineer",
     og: {
       title:"Jonathan Madden",
       type: "website",
@@ -18,6 +19,7 @@ function SeoHeader() {
       <style>{'body { background-color: black; }'}</style>
       <title>{seo.title}</title>
       <meta name="description" content={seo.description} />
+      <meta name="keywords" content={seo.keywords} />
       <meta property="og:title" content={seo?.og?.title} />
       <meta property="og:type" content={seo?.og?.type} />
       <meta property="og:url" content={seo?.og?.url} />
