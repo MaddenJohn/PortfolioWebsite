@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import "./Intro.scss"
 import {Fade} from "react-awesome-reveal";
 // import { styled } from '@mui/material/styles';
@@ -8,6 +8,9 @@ import {Fade} from "react-awesome-reveal";
 
 
 const Intro = () => {
+
+    // const [width, setWidth] = useState(window.innerWidth);
+    const [height, setHeight] = useState(window.innerHeight);
 
     // const ColorButton = styled(Button)<ButtonProps>(({ theme }) => ({
     //     color: "white",
@@ -21,7 +24,11 @@ const Intro = () => {
         <Fade direction="up" duration={1000} triggerOnce={true}>
             <div className="intro-main" id="intro">
                 <div className="intro-image-div">
-                    <img alt="background" src={require("../../assets/images/background.webp")}></img>
+                    <img 
+                        alt="background" 
+                        src={require("../../assets/images/background.webp")}
+                        style={{ height: height - 8 }}
+                    />
                 </div>
                 <div className="intro-text">
                     <div className = "intro-name-text">
