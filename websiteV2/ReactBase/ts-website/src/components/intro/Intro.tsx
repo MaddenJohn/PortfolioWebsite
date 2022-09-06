@@ -9,8 +9,7 @@ import {Fade} from "react-awesome-reveal";
 
 const Intro = () => {
 
-    // const [width, setWidth] = useState(window.innerWidth);
-    const [height, setHeight] = useState(window.innerHeight);
+    const [height] = useState(window.innerHeight);
 
     // const ColorButton = styled(Button)<ButtonProps>(({ theme }) => ({
     //     color: "white",
