@@ -20,8 +20,10 @@ function Bio() {
                             </h1> */}
                             <p className="dark-mode bio-text-p">
                             Passionate Full Stack Developer with a background in Cybersecurity.
+                            </p>
+                            <p className="dark-mode bio-text-p">
                             Experienced in Java / Python / AWS / React and other libraries
-                            and frameworks. See my resume for more information. 
+                            and frameworks. 
                             </p>
                         </div>
                     </div>

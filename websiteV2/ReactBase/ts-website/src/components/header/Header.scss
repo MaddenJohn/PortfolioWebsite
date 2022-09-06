@@ -81,10 +81,10 @@
 
 .header .menu-icon {
   cursor: pointer;
-  display: inline-block;
-  // float: right;
+  display: flex;
   padding: 28px 20px;
-  position: relative;
+  justify-content: flex-end;
+  align-items: flex-end;
   user-select: none;
 }
 
