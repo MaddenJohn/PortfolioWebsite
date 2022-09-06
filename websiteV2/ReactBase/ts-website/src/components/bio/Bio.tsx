@@ -4,7 +4,6 @@ import {Fade} from "react-awesome-reveal";
 import { SocialIcon } from 'react-social-icons';
 import { ImProfile } from "react-icons/im";
 
-
 function Bio() {
 
     var socialLinks = [ "https://www.linkedin.com/in/jmaddenlinked",
@@ -45,10 +44,7 @@ function Bio() {
                             );
                         })}
                 <a href="https://s3.us-east-2.amazonaws.com/madden.john.wordpress/simply-static-1-1598649569/resume-John-Madden.pdf">
-                    <ImProfile 
-                        cursor= "pointer"
-                        style= {{ height: "50px", width:"50px", color:"white"}}
-                    />
+                    <img className="bio-icon" alt="icon" src={require("../../assets/images/profile-icon.webp")}/>
                 </a>
             </div>
         </Fade>

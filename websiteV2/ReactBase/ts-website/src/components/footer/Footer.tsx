@@ -27,12 +27,8 @@ export default function Footer() {
                             );
                         })}
                 <a href="https://s3.us-east-2.amazonaws.com/madden.john.wordpress/simply-static-1-1598649569/resume-John-Madden.pdf">
-                    <ImProfile 
-                        cursor= "pointer"
-                        style= {{ height: "35px", width:"35px", color:"white"}}
-                    />
+                  <img className="footer-icon" alt="icon" src={require("../../assets/images/profile-icon.webp")}/>
                 </a>
-                
             </div>
           </div>
         </Fade>
