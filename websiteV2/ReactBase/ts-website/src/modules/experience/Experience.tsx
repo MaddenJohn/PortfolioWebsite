@@ -8,10 +8,13 @@ export default function Experience() {
         {
             company: "Credera",
             date: "Nov 2020 - Present",
-            role: "Technology Consultant",
+            role: "Senior Technology Consultant",
             description: "",
-            descBullets: [  "Built marketing web application",
-                            "Migrated on-prem services to AWS"
+            descBullets: [  "Built generic marketing web application to service multiple vendors",
+                            "Migrated on-prem data processing services from on-prem to AWS",
+                            "Owned security resolution for SAST, DAST, and Cloud alerts",
+                            "Developed POCs and architecture design of new infrastructure",
+                            "Created internal application to revamp onboarding process"
             ],
             companyLogo: require("../../assets/images/credera-logo.webp")
         },

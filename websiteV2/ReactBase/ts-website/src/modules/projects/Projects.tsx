@@ -6,6 +6,16 @@ import {Fade} from "react-awesome-reveal";
 export default function Project() {
     const projects = [
         {
+            title: "Personal Website",
+            description: "This personal website has been created to showcase my skills and experience as a full stack engineer.",
+            descBullets: [  "React website with a component based design to allow for easy modification",
+                            "Static website hosted on Azure, using AWS DNS resolution",
+                            "Automated deployments through Gitlab"
+            ],
+            projectLogo: require("../../assets/images/favicon.webp"),
+            projectUrl: "https://github.com/MaddenJohn/PortfolioWebsite/tree/master/websiteV2/ReactBase/ts-website"
+        },
+        {
             title: "Novel Audio Reader",
             description: "The Novel Audio Reader is a website that allows the creation of audio files for public online novels. I accomplished this by using AWS, and I was able to minimize cost and effort for users through the architecture design below. See the github link below to see the website and architecture diagram.",
             descBullets: [  "Simple user interface to access or update content",
