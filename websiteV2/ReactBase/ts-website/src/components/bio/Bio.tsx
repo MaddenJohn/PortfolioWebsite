@@ -1,8 +1,13 @@
 import React from "react";
 import "./Bio.scss"
 import {Fade} from "react-awesome-reveal";
+import { SocialIcon } from 'react-social-icons';
 
 function Bio() {
+
+    var socialLinks = [ "https://www.linkedin.com/in/jmaddenlinked",
+                        "https://github.com/MaddenJohn" 
+                    ]
 
     return (
         <Fade direction="left" duration={1000} triggerOnce={true}>
@@ -24,6 +29,17 @@ function Bio() {
                         <img alt="background" src={require("../../assets/images/headshot.webp")}/>
                     </div>
                 </div>
+            </div>
+            <div className="bio-social-links">
+                {socialLinks.map((url, _) => {
+                            return (
+                            <SocialIcon
+                                url={url}
+                                bgColor="#ffffff"
+                            />
+                            );
+                        })}
+                
             </div>
         </Fade>
     );

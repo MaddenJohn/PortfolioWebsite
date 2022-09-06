@@ -7,12 +7,13 @@ export default function Project() {
     const projects = [
         {
             title: "Novel Audio Reader",
-            description: "The Novel Audio Reader is a website that allows the creation of audio files for public online novels. I accomplished this by using AWS, and I was able to minimize cost and effort for users through the architecture design below.",
+            description: "The Novel Audio Reader is a website that allows the creation of audio files for public online novels. I accomplished this by using AWS, and I was able to minimize cost and effort for users through the architecture design below. See the github link below to see the website and architecture diagram.",
             descBullets: [  "Simple user interface to access or update content",
                             "One-click updates for new content published to online novels",
                             "Serverless architecture using AWS Lambda and S3"
             ],
-            projectLogo: require("../../assets/images/books.webp")
+            projectLogo: require("../../assets/images/books.webp"),
+            projectUrl: "https://github.com/MaddenJohn/LNAudioBooks"
         },
         {
             title: "MacAttack",
@@ -21,7 +22,8 @@ export default function Project() {
                             "Traffic analysis using Wireshark and TCP identifies Mac addresses to impersonate",
                             "Simple install using pip"
             ],
-            projectLogo: require("../../assets/images/wifi.webp")
+            projectLogo: require("../../assets/images/wifi.webp"),
+            projectUrl: "https://github.com/MaddenJohn/archivedProjects/tree/master/Python/Security/MacAttack/macattcMain"
         },
         {
             title: "DineTexas",
@@ -29,7 +31,8 @@ export default function Project() {
             descBullets: [  "Authentication used Firebase to automate emails for user identity and store credentials",
                             "Easy installation for mobile devices through packages"
             ],
-            projectLogo: require("../../assets/images/dine-texas.webp")
+            projectLogo: require("../../assets/images/dine-texas.webp"),
+            projectUrl: "https://github.com/MaddenJohn/archivedProjects/tree/master/Swift/cs378/dineTexasBackup2/dineTexas"
         },
         {
             title: "PintOS",
@@ -40,7 +43,8 @@ export default function Project() {
                             "Virtual memory features included page and frame table management, stack growth, page reclamation, and frame eviction",
                             "File system features included a buffer cache, extensible files, and subdirectories "
             ],
-            projectLogo: require("../../assets/images/code.webp")
+            projectLogo: require("../../assets/images/code.webp"),
+            projectUrl: "https://github.com/MaddenJohn/archivedProjects/tree/master/C/Pintos/cs439p2-master/src"
         },
         {
             title: "AES 256",
@@ -49,7 +53,8 @@ export default function Project() {
                             "Encryption and decryption throughput of 17-19MB/second",
                             "14 round cycle with multiple data transformation methods including rotation and substitution"
             ],
-            projectLogo: require("../../assets/images/aes.webp")
+            projectLogo: require("../../assets/images/aes.webp"),
+            projectUrl: "https://github.com/MaddenJohn/archivedProjects/tree/master/Java/CS361/jm76685_project5"
         },
         {
             title: "Tron",
@@ -57,7 +62,8 @@ export default function Project() {
             descBullets: [  "Fully functional JApplet Tron game",
                             "Computer and multiplayer mode enabled"
             ],
-            projectLogo: require("../../assets/images/tron.webp")
+            projectLogo: require("../../assets/images/tron.webp"),
+            projectUrl: "https://github.com/MaddenJohn/archivedProjects/tree/master/Java/Tron"
         }
     ] 
 

@@ -34,6 +34,12 @@
     align-self: center;
 }
 
+.bio-social-links {
+  display: flex;
+  justify-content: center;
+  gap: 1rem 1rem;
+}
+
 .bio-main > * {
   flex: 1;
   margin-bottom: 30px;

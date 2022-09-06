@@ -2,6 +2,7 @@ import { ProjectCardDto } from "../../models/project-card.model";
 import "./ProjectCard.scss";
 import React, {useState, createRef, RefObject} from "react";
 import ColorThief from "colorthief";
+import { SocialIcon } from 'react-social-icons';
 
 export type ExportCardProps = {
     cardInfo: ProjectCardDto;
@@ -60,6 +61,13 @@ export default function ProjectCard({cardInfo}: ExportCardProps) {
         <ul>
           {getDescBullets(cardInfo.descBullets)}
         </ul>
+        <div className="project-social-links">
+            <SocialIcon
+                url={cardInfo.projectUrl}
+                bgColor="#ffffff"
+                style={{ height: 35, width: 35 }}
+            />
+        </div>
       </div>
     </div>
   );

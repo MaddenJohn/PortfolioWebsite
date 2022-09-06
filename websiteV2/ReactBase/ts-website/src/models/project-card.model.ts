@@ -3,4 +3,5 @@ export type ProjectCardDto = {
     description: string;
     descBullets: string[];
     projectLogo: any;
+    projectUrl: string;
 }
