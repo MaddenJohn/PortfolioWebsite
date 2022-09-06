@@ -17,8 +17,8 @@ const Main = () => {
                 <Intro />
                 <Bio />
                 <Experience />
-                <Projects />
                 <Education />
+                <Projects />
                 <Footer />
             </>
         </div>

@@ -4,5 +4,5 @@ export type ExperienceCardDto = {
     role: string;
     description: string;
     descBullets: string[];
-    companyLogo: string;
+    companyLogo: any;
 }
