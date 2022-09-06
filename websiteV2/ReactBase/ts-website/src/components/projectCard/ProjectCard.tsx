@@ -47,6 +47,7 @@ export default function ProjectCard({cardInfo}: ExportCardProps) {
           ref={imgRef}
           className="project-roundedimg"
           src={cardInfo.projectLogo}
+          alt="ProjectImage"
           onLoad={() => getColorArrays()}
         />
       </div>
