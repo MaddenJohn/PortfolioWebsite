@@ -16,6 +16,16 @@ export default function Project() {
             projectUrl: "https://github.com/MaddenJohn/PortfolioWebsite/tree/master/websiteV2/ReactBase/ts-website"
         },
         {
+            title: "Blur Extension",
+            description: "A chrome extension to blur images based on a predefined whitelist.",
+            descBullets: [  "Javascript based extension capable of blurring all images or videos",
+                            "Integrated with AWS send email notifications to subscribers",
+                            "Simple UI for creating whitelists and adding subscribers"
+            ],
+            projectLogo: require("../../assets/images/blur-logo-store.webp"),
+            projectUrl: "https://github.com/MaddenJohn/Blur-Chrome-Extension"
+        },
+        {
             title: "Novel Audio Reader",
             description: "The Novel Audio Reader is a website that allows the creation of audio files for public online novels. I accomplished this by using AWS, and I was able to minimize cost and effort for users through the architecture design below. See the github link below to see the website and architecture diagram.",
             descBullets: [  "Simple user interface to access or update content",
