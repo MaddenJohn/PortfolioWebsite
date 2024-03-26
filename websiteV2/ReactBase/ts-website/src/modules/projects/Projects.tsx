@@ -23,7 +23,7 @@ export default function Project() {
                             "Simple UI for creating whitelists and adding subscribers"
             ],
             projectLogo: require("../../assets/images/blur-logo-store.webp"),
-            projectUrl: "https://github.com/MaddenJohn/Blur-Chrome-Extension"
+            projectUrl: "https://chromewebstore.google.com/detail/blur-extension/fdembhgbckmfadggaapbldemfpjpokcd?hl=en&authuser=0"
         },
         {
             title: "Novel Audio Reader",
