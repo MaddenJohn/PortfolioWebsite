@@ -10,11 +10,19 @@ export default function Experience() {
             date: "Nov 2020 - Present",
             role: "Senior Technology Consultant",
             description: "",
-            descBullets: [  "Built generic marketing web application to service multiple vendors",
-                            "Migrated on-prem data processing services from on-prem to AWS",
-                            "Owned security resolution for SAST, DAST, and Cloud alerts",
-                            "Developed POCs and architecture design of new infrastructure",
-                            "Created internal application to revamp onboarding process"
+            descBullets: [  "Senior developer responsible for migrating data processing services to AWS",
+             "Designed POCs for ETL and fully automated failover for Confluent Kafka",
+             "Orchestrated and executed the successful launch of 5 extensive project milestones",
+             "Assigned to a multi-billion dollar client across different projects for 3+ years",
+             "Completed approximately 100 deployments, 200 features, and 275 bug fixes",
+             "Regularly conducted presentations to ensure alignment of project objectives",
+             "Enhanced client’s platform by programming new features for common services",
+             "Selected to mentor an intern, providing feedback and a formal performance review",
+             "Managed project’s security requirements, including stakeholder updates",
+             "Identified a global, critical risk misconfiguration issue in the client’s 3rd party MFA",
+             "Spearheaded a company-wide script to aggregate coach data from 6 sources",
+             "Developed a generic marketing web application utilized by multiple vendors",
+             "Promoted to Senior Consultant for outstanding performance and leadership",
             ],
             companyLogo: require("../../assets/images/credera-logo.webp")
         },
@@ -25,7 +33,8 @@ export default function Experience() {
             description: "",
             descBullets: [  "Identified 300 vulnerabilities during IoT, Web, Cloud, and Mobile application penetration tests",
                             "Presented executive summary and remediation steps for 20 clients",
-                            "Maintained a customer NPS satisfaction rating of 96%"
+                            "Maintained a customer NPS satisfaction rating of 96%",
+                            "Developed internal docker containers to automate tests for clients"
                         ],
             companyLogo: require("../../assets/images/praetorian-logo.webp")
         },
@@ -35,8 +44,8 @@ export default function Experience() {
             role: "Associate Software Engineer",
             description: "",
             descBullets: [  "Developed Go application to monitor AWS WAF costs across enterprise",
-                            "Redesigned client integration workflow, reducing time by 50%",
-                            "Collaborated with multiple teams to create automation platform, to reduce test account creation from 2 weeks to 1 hour"
+                            "Redesigned client integration workflow, halving expected completion duration",
+                            "Created a cross-team platform, reducing test account creation time by 99%"
             ],
             companyLogo: require("../../assets/images/capital-one-logo.webp")
         }

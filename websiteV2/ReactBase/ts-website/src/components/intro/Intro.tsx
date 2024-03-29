@@ -34,7 +34,7 @@ const Intro = () => {
                         Jonathan Madden
                     </div>
                     <div>
-                        Software Engineer
+                        Senior Software Engineer
                     </div>
                 </div>
                 <div className="resume-button">

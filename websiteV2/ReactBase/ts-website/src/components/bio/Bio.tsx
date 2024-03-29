@@ -25,7 +25,7 @@ function Bio() {
                                 Passionate Full Stack Developer with a background in Cybersecurity.
                                 </p>
                                 <p className="dark-mode bio-text-p">
-                                Experienced in Java / Python / AWS / React and other libraries
+                                Experienced in AWS / Python / Java / React and other libraries
                                 and frameworks. 
                                 </p>
                             </div>

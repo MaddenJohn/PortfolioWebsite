@@ -19,7 +19,7 @@ export default function Project() {
             title: "Blur Extension",
             description: "A chrome extension to blur images based on a predefined whitelist.",
             descBullets: [  "Javascript based extension capable of blurring all images or videos",
-                            "Integrated with AWS send email notifications to subscribers",
+                            "Integrated with AWS to send email notifications to subscribers",
                             "Simple UI for creating whitelists and adding subscribers"
             ],
             projectLogo: require("../../assets/images/blur-logo-store.webp"),
