@@ -17,8 +17,8 @@ export default function Education() {
             {
                 title: "AWS Certified Solutions Architect - Associate",
                 subtitle: "AWS",
-                date: "May 2019 - May 2022",
-                link: "https://www.credly.com/badges/f1ab9aa5-0ff5-44ef-8f3f-0730c4e124ca",
+                date: "April 2024 - April 2027",
+                link: "https://cp.certmetrics.com/amazon/en/public/verify/credential/L0DWYJY2LNQ4QN9T",
                 logo: require("../../assets/images/aws-logo.webp")
             },
             {
