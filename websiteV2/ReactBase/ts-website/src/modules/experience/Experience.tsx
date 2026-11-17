@@ -6,8 +6,16 @@ import {Fade} from "react-awesome-reveal";
 export default function Experience() {
     const experiences = [
         {
+            company: "JPMorganChase",
+            date: "Jun 2024 - Present",
+            role: "Software Engineer III",
+            description: "AI/ML & Data Platforms",
+            descBullets: [],
+            companyLogo: require("../../assets/images/jpmorganchase-logo.webp")
+        },
+        {
             company: "Credera",
-            date: "Nov 2020 - Present",
+            date: "Nov 2020 - Jun 2024",
             role: "Senior Technology Consultant",
             description: "",
             descBullets: [  "Senior developer responsible for migrating data processing services to AWS",
